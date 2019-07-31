@@ -7,7 +7,7 @@ import axios from '../../src/index'
 //     msg: 'hi'
 //   }
 // })
-//
+
 // axios.request({
 //   url: '/extend/post',
 //   method: 'post',
