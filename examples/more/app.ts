@@ -1,9 +1,9 @@
 import axios, { AxiosError } from '../../src/index'
 import qs from 'qs'
 //
-// import 'nprogress/nprogress.css'
-//
-// import NProgress from 'nprogress'
+import 'nprogress/nprogress.css'
+
+import NProgress from 'nprogress'
 
 // document.cookie = 'a=b'
 //
@@ -62,9 +62,9 @@ import qs from 'qs'
 //   setupUpdateProgress()
 //   setupStopProgress()
 // }
-//
+// //
 // loadProgressBar()
-//
+// //
 // const downloadEl = document.getElementById('download')
 //
 // downloadEl!.addEventListener('click', e => {
@@ -149,8 +149,8 @@ import qs from 'qs'
 //
 // instance.get('5cc01a7b0001a33718720632.jpg')
 //
-// instance.get('https://img.mukewang.com/szimg/5becd5ad0001b89306000338-360-202.jpg')
-
+// instance.get('https://img.mukewang.com/5cc01a7b0001a33718720632.jpg')
+//
 function getA() {
   return axios.get('/more/A')
 }
@@ -170,7 +170,7 @@ axios.all([getA(), getB()])
     console.log(resA.data)
     console.log(resB.data)
   })
-
+//
 const fakeConfig = {
   baseURL: 'https://www.baidu.com/',
   url: '/user/12345',
